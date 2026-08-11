@@ -1,0 +1,19 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.env/
+
+# IDE
+.vscode/
+.idea/
+
+# Data
+data/raw/
+data/test/
+
+# Keep reference data
+!data/reference/
+!data/reference/*.csv
