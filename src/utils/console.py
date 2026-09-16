@@ -39,6 +39,11 @@ def distances_not_found(name: str, city: str) -> None:
         None
     """
 
+    print(
+        f"Поддерживаемые дистанции не найдены: "
+        f"{name} ({city})"
+    )
+
 
 def distance_started(distance: str) -> None:
     """
@@ -75,7 +80,7 @@ def distance_not_selected(distance: str) -> None:
     print(f'Не удалось выбрать "{distance}"')
 
 
-def results_ready(distance: str) -> None:
+def results_ready() -> None:
     """
     Выводит сообщение о готовности страницы к обработке результатов.
 
@@ -84,10 +89,6 @@ def results_ready(distance: str) -> None:
 
     Сообщение не гарантирует полную загрузку всех данных мероприятия,
     а только обозначает момент, когда парсер начинает обработку страницы.
-
-    Args:
-        distance (str):
-            Название обработанной дистанции.
 
     Returns:
         None

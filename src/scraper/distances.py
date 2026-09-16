@@ -7,7 +7,7 @@ SUPPORTED_DISTANCES = {
 
 def is_supported_distance(distance: str) -> bool:
     """
-    Проверяет, используется ли дистанция в анализе.
+    Проверяет, поддерживается ли дистанция проектом.
 
     Args:
         distance (str):

@@ -66,7 +66,7 @@ def parse_participants(
         page (Page):
             Открытая страница результатов Playwright.
 
-        event_id (int):
+        event_id (str):
             Идентификатор мероприятия.
 
         distance (str):

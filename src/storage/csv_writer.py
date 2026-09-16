@@ -92,4 +92,3 @@ def save_events(
         writer.writeheader()
         writer.writerows(events)
 
-
