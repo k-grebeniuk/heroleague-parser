@@ -13,8 +13,13 @@
 &nbsp;&nbsp;&nbsp;&nbsp;**create_browser()** | Создает экземпляр браузера Chromium. <br>
 
 ---
+## `src\scraper\collector.py`
+&nbsp;&nbsp;&nbsp;&nbsp;**collect_participants()** | Собирает участников мероприятия по всем выбранным дистанциям. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;**collect_events()** | Собирает список мероприятий. <br>
+
+---
 ## `src\scraper\distances.py`
-&nbsp;&nbsp;&nbsp;&nbsp;**is_supported_distance()** | Проверяет, используется ли дистанция в анализе. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;**is_supported_distance()** | Проверяет, поддерживается ли дистанция проектом. <br>
 
 ---
 ## `src\scraper\event_parser.py`
@@ -28,8 +33,6 @@
 ---
 ## `src\scraper\main.py`
 &nbsp;&nbsp;&nbsp;&nbsp;**main()** | Без описания <br>
-&nbsp;&nbsp;&nbsp;&nbsp;**collect_participants()** | Собирает участников мероприятия по всем выбранным дистанциям. <br>
-&nbsp;&nbsp;&nbsp;&nbsp;**collect_events()** | Собирает список мероприятий. <br>
 
 ---
 ## `src\scraper\paginator.py`
